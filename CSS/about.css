@@ -1,0 +1,189 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #2E0708;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.headerContainer {
+  background-color: #1F1E26;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.header {
+  height: 50px;
+  color: #e0d6ce;
+  padding: 30px 50px 0px 50px;
+}
+
+.logo {
+  max-height: 100px;
+  width: 120px;
+  position: absolute;
+  top: 0px;
+  left: 25px;
+}
+
+.headerLinks {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.headerLinks a {
+  text-decoration: none;
+  color: #e0d6ce;
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.headerLinks a:hover {
+  background-color: #614c39;
+  transform: translateY(-5px);
+}
+
+.home a {
+  position: absolute;
+  top: 0px;
+}
+
+.part0 {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+}
+
+.part01 {
+  position: absolute;
+  color: #B7997D;
+  top: 200px;
+  left: 20px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.part02 {
+  position: absolute;
+  color: #B7997D;
+  top: 290px;
+  left: -10px;
+  font-size: 40px;
+  font-style: oblique;
+  width: 40%;
+  text-align: center;
+}
+
+.trailer0 {
+  position: absolute;
+  top: 700px;
+  left: 30px;
+  font-size: larger;
+}
+
+.part1 {
+  color: #B7997D;
+  font-size: 70px;
+  font-weight: bold;
+  position: absolute;
+  top: 820px;
+  left: 25px;
+}
+
+.part12 {
+  position: absolute;
+  top: 950px;
+  left: 250px;
+}
+
+.part13 {
+  position: absolute;
+  top: 950px;
+  right: 20px;
+}
+
+.maker0 {
+  position: absolute;
+  top: 1340px;
+}
+
+.makers {
+  color: #B7997D;
+  position: absolute;
+  top: 1460px;
+  left: 25px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.makerphoto {
+  position: absolute;
+  top: 1780px;
+  right: 20px;
+}
+
+.makers-container1 {
+  width: 750px;
+  height: 400px;
+  padding: 20px;
+  position: absolute;
+  top: 1600px;
+  left: 25px;
+  background-color: #1F1E26;
+  box-shadow: 0 4px 8px;
+}
+
+.makers-container2 {
+  width: 750px;
+  height: 400px;
+  padding: 20px;
+  position: absolute;
+  top: 2090px;
+  left: 25px;
+  background-color: #1F1E26;
+  box-shadow: 0 4px 8px;
+}
+
+.job-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.job {
+  font-size: 55px;
+  font-weight: bold;
+  color: #B7997D;
+  padding: 10px 0 10px;
+}
+
+.name {
+  font-size: 40px;
+  color: #9a9898;
+}
+
+.opp {
+  color: #B7997D;
+  position: absolute;
+  top: 550px;
+  left: 70px;
+  font-size: 90px;
+}
+
+.e {
+  position: absolute;
+  top: 1100px;
+}
